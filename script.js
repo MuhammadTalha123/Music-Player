@@ -10,7 +10,7 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 // Song titles
-const songs = ['hey', 'summer', 'ukulele'];
+const songs = ['hey', 'summer', 'ukulele', 'Maalik Theme Song-Maalik'];
 
 // Keep track of song
 let songIndex = 2;
