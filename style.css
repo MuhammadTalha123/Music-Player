@@ -17,6 +17,7 @@ body {
   justify-content: center;
   font-family: 'Lato', sans-serif;
   margin: 0;
+  width: 100%;
 }
 
 .music-container {
@@ -138,4 +139,71 @@ body {
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
+}
+
+@media screen and (max-width:450px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  .music-container {
+    width: 70%;
+  }
+
+  .action-btn {
+    font-size: 10px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.img-container {
+  width: 90px;
+}
+
+.img-container img {
+  height: 90px;
+}
+
+.progress-container {
+  transform: translate(-30px, 0px);
+  margin: 15px 0 0 0;
+}
+
+.music-info h4 {
+  transform: translate(-30px, 10px);
+  margin: 0;
+}
+}
+
+@media screen and (max-width:370px) {
+  .music-container {
+    width: 60%;
+    padding: 20px 10px;
+  }
+
+  .action-btn {
+    font-size: 10px;
+}
+
+.img-container {
+  width: 70px;
+}
+
+.img-container img {
+  height:70px;
+}
+
+.progress-container {
+  transform: translate(-50px, 0px);
+  margin: 15px 0 0 0;
+}
+
+.music-info h4 {
+  transform: translate(-50px, 0px);
+  margin: 0;
+}
+
+.img-container::after {
+  transform: translate(-50%, 80%);
+} 
 }
